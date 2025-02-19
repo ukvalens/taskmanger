@@ -1,13 +1,16 @@
 const express = require('express');
 const dotenv = require('dotenv').config();
+const bodyParser = require('body-parser');
+const addTaskRoute = require('./task/add'); // Import the add task route
 
 const app = express();
 const port = process.env.PORT || 4900;
 
-// Define a route for the root URL
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
-});
+// Middleware
+app.use(bodyParser.json());
+
+// Use the add task route
+app.use('/tasks', addTaskRoute);
 
 app.listen(port, (error) => {
     if (error) {
