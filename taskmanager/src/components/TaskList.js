@@ -4,7 +4,7 @@ import './styles.css';
 const TaskList = ({ tasks, onEdit, onDelete, onToggle }) => {
   return (
     <div className="container">
-      <h1 className="header">Task List</h1>
+      <h1 className="header">TASK LIST</h1>
       <ul>
         {tasks.map(task => (
           <li key={task.id} className="task-item">
