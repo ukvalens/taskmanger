@@ -1,0 +1,256 @@
+/* Common styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-green {
+  background-color: #38a169;
+  color: #ffffff;
+}
+
+.button-blue {
+  background-color: #3182ce;
+  color: #ffffff;
+}
+
+.button-red {
+  background-color: #e53e3e;
+  color: #ffffff;
+}
+
+.input, .select, .textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+  border-color: #3182ce;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.bg-gray {
+  background-color: #f7fafc;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 8px;
+}
+
+.task-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+.input, .textarea, .select {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+}
+
+.button-blue {
+  background-color: #007BFF;
+}
+
+.button-red {
+  background-color: #FF5733;
+}
+
+.text-red-500 {
+  color: #FF5733;
+  font-weight: bold;
+}
+.container {
+  width: 80%; /* Reduce the width of the form */
+  max-width: 600px; /* Set a maximum width */
+  margin: 0 auto; /* Center the form */
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input, .textarea, .select {
+  width: 100%;
+  padding: 0.3em; /* Reduce padding */
+  margin-bottom: 0.8em; /* Reduce margin */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1em; /* Reduce padding */
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.9em; /* Reduce font size */
+}
+
+.button-blue {
+  background-color: #007BFF;
+}
+
+.button-red {
+  background-color: #FF5733;
+}
+
+.text-red-500 {
+  color: #FF5733;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 1.5em; /* Reduce header font size */
+}
+
+.block {
+  margin-bottom: 0.5em; /* Reduce margin */
+}
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Set sidebar width */
+  padding: 1em;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 1em;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.images {
+  margin-top: 2em;
+}
+
+.images img {
+  width: 100%; /* Adjust image width */
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
+.container {
+  flex-grow: 1; /* Allow the form to take up remaining space */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input, .textarea, .select {
+  width: 100%;
+  padding: 0.3em; 
+  margin-bottom: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1em; 
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.button-blue {
+  background-color: #007BFF;
+}
+
+.button-red {
+  background-color: #FF5733;
+}
+
+.text-red-500 {
+  color: #FF5733;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 1.5em; 
+}
+
+.block {
+  margin-bottom: 0.5em; 
+}
